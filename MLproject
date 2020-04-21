@@ -1,0 +1,10 @@
+# template MLflow project file
+
+name: template
+
+conda_env: conda.yaml
+
+entry_points:
+    main:
+        command:
+            python train.py
